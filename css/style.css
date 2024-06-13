@@ -132,3 +132,19 @@ nav a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.fixed{
+  background-color:#67df69;
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  bottom:30px;
+  right:30px;
+  display: flex;
+  justify-content: center;
+align-items: center;
+border-radius: 50px;
+}
+.fixed i{
+  font-size: 60px; 
+}

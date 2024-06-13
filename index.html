@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keyword"
+      content="position, relative, absolute, fixed, sticky"
+    />
+    <meta
+      name="description"
+      content="proyecto para practicar valores posibles de posicionamiento"
+    />
+    <meta name="author" content="Agustina Mena" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Position</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="">Relativo</a></li>
+          <li><a href="">Absoluto</a></li>
+          <li><a href="">Fijo</a></li>
+          <li><a href="">Sticky</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Posicionamiento con CSS</h1>
+        <p>
+          La propiedad position de CSS especifica cómo un elemento es
+          posicionado en el documento. Las propiedades top, right, bottom, y
+          left determinan la ubicación final de los elementos posicionados.
+        </p>
+        <p>
+          Un elemento posicionado es un elemento cuyo valor computado de
+          position es <b>relative</b>, <b>absolute</b>, <b>fixed</b>, o
+          <b>sticky</b>. (En otras palabras, cualquiera excepto static).
+        </p>
+        <h2>Uso comunes de posicionamiento en CSS</h2>
+        <ul>
+          <li>
+            <b>Relative:</b> Se usa para realizar ajustes finos y como base para
+            el posicionaimiento absolute.
+          </li>
+          <li>
+            <b>Absolute:</b> Se utiliza para superposicion de elementos, por ejemplo: cuantedo tenemos una imagen y sobre ella texto
+          </li>
+          <li>
+            <b>Fixed:</b> Se usa para fijar elementos en la ventana del navegador, como los navbar, algun chatbot, etc.
+          </li>
+        <li><b>Sticky:</b>Elementos que se pegan al contenedor al desplazarse, como menus laterales.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Posicionamiento Relativo</h2>
+        <div class="box">
+          <div class="relative"><p>Elemento Relativo</p></div>
+          <div class="relativeNuevo"><p>Elemento Relativo 2</p></div>
+        </div>
+      </section>
+      <section>
+        <h2>Posicionamiento Absoluto</h2>
+        <div class="box">
+          <div class="absolute"><p>Elemento Absoluto</p></div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nihil ratione consequatur quaerat rerum. Doloribus, porro ipsa. Velit architecto, suscipit corrupti ad similique molestiae atque corporis qui in voluptatem amet.</p>
+        </div>
+      </section>
+    </main>
+    <footer><p>&copy; Todos los derechos reservados</p></footer>
+  </body>
+</html>

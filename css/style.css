@@ -46,6 +46,7 @@ nav {
   background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
   padding: 30px;
   text-align: center;
+
 }
 footer {
   background-color: #8bc6ec;
@@ -59,13 +60,13 @@ nav li {
   display: inline;
 }
 nav a {
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   margin: 0px 5px;
 }
 nav a:hover {
   text-decoration: underline;
-  color: #ffffff;
 }
 
 .box {
@@ -107,7 +108,6 @@ nav a:hover {
   width: 65%;
   position: relative;
   margin-bottom: 15px;
-
 }
 .contenedorDeImagen img {
   width: 100%;
@@ -120,15 +120,15 @@ nav a:hover {
   padding: 10px;
   color: #f2b6b5;
   position: absolute;
-  top:calc(50% - 16px);
+  top: calc(50% - 16px);
 }
 
 .contenedorDeImagen h3 {
-  background-color: #797A7C;
+  background-color: #797a7c;
   padding: 10px;
-  color: #EDEEF0;
+  color: #edeef0;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }

@@ -46,7 +46,6 @@ nav {
   background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
   padding: 30px;
   text-align: center;
-
 }
 footer {
   background-color: #8bc6ec;
@@ -133,18 +132,37 @@ nav a:hover {
   transform: translate(-50%, -50%);
 }
 
-.fixed{
-  background-color:#67df69;
+.fixed {
+  background-color: #67df69b1;
   width: 80px;
   height: 80px;
   position: fixed;
-  bottom:30px;
-  right:30px;
+  bottom: 30px;
+  right: 30px;
   display: flex;
   justify-content: center;
-align-items: center;
-border-radius: 50px;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
 }
-.fixed i{
-  font-size: 60px; 
+
+.fixed:hover {
+  background-color: #67df69;
+  transition: 300ms;
+}
+
+
+.boxSticky {
+  background: #d3dede56;
+  border: 1px solid rgb(52, 13, 224);
+  position: relative;
+
+}
+.parrafoSticky{
+  background-color:#eeff01;
+  position: sticky;
+  top: 30px;
+  
 }

@@ -164,5 +164,16 @@ nav a:hover {
   background-color:#eeff01;
   position: sticky;
   top: 30px;
-  
+}
+/* FLEXBOX */
+.d-flex{
+display: flex; 
+/* flex-wrap:wrap;
+justify-content: center; */
+}
+.columnaIzq{
+  width: 50%;
+}
+.columnaDer{
+  width: 50%;
 }
